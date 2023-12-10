@@ -1,0 +1,6 @@
+#Abrir terminal - botão direito "Git Bash Here", abrirá o terminal.
+#Ininciar o Git - git init
+#ver status, quais estão ou não no controle de versão - git status
+#Adicionar o arquivo a controle de versão - git add "nome_do_arquivo.py"
+#Adicionar todos os arquivos da pasta/projeto - git add .
+#
