@@ -1,3 +1,12 @@
+--------------
+- git add .
+- git commit -m "msg sobre a versão"
+- git push
+
+Para atualizar posso usar apenas add e push
+Mas para salvar mesmo tenho que criar nova versão com commit
+--------------
+
 #Abrir terminal - botão direito "Git Bash Here", abrirá o terminal.
 
 #Ininciar o Git no diretório - git init
@@ -23,9 +32,11 @@ Agora o git irá pedir para configurar, caso ainda não tenha feito, use os coma
 #Assim que dou push novamente, retorna um erro pq não foi definido o branche, que é referente a versão do código. Copiando o código que o teminal disponibiliza, abre a janela de longin do github. Então clicar para ir para o navegador e autorizar.
 - git push --set-upstream origin master
 
-#
+#Ver as versões do código e notar que existe um id:
+- git reflog
 
-
+#Navegar entre versõesdo código
+- git reset --hard IdDaVersão
 
 
 
