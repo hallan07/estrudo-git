@@ -74,8 +74,9 @@ Agora o git irá pedir para configurar, caso ainda não tenha feito, use os coma
 --------------------
 OBS: 
 
-# Quando não há modificações nos arquivos e faço commit e push, ele retorna que não há nada para mudar e continua com o nome da versão que estou atualmente. "nothing to commit, working tree clean" e "Everything up-to-date"
+# Quando não há modificações nos arquivos e faço commit e push, ele retorna que não há nada para mudar e continua com o nome da versão que estou atualmente. "nothing to commit, working tree clean" e "Everything up-to-date".
 
+# É possível ter nomes igaus em branchs diferentes.
 
-
+#
 
