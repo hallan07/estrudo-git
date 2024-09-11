@@ -1,7 +1,7 @@
---------------
-- git add .
-- git commit -m "msg sobre a versão"
-- git push
+--------------xx
+# add um novo arquivo - git add .
+# criar uma versão - git commit -m "msg sobre a versão"
+# Atualizar, ñ na nuvem - git push
 
 Para atualizar posso usar apenas add e push
 Mas para salvar mesmo tenho que criar nova versão com commit
@@ -26,7 +26,7 @@ Agora o git irá pedir para configurar, caso ainda não tenha feito, use os coma
 #Enviar alterações usando git push (vai dar um erro pq o git não sabe onde enviar o push)
 - git push
 
-#Criar a pesta no github para enviar os arquivos. Criar um repositório no GitHub e pegar o link e aplicar com o comando:
+#Criar a pasta no github para enviar os arquivos. Criar um repositório no GitHub e pegar o link e aplicar com o comando:
 - git remote add origin link
 
 #Assim que dou push novamente, retorna um erro pq não foi definido o branche, que é referente a versão do código. Copiando o código que o teminal disponibiliza, abre a janela de longin do github. Então clicar para ir para o navegador e autorizar.
