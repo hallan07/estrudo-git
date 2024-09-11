@@ -32,6 +32,8 @@
 #Mudar a branch
 - git checkout (nome da branch)
 
+#Commit na nova branch: ao dar commit e push el não vai aceitar até configurar com o comando que ele vai passar, nome da branch no final
+- git push --set-upstream origin staging
 
 --------------------
 Inicio do tutorial passo a passo:
@@ -61,6 +63,7 @@ Agora o git irá pedir para configurar, caso ainda não tenha feito, use os coma
 #Assim que dou push novamente, retorna um erro pq não foi definido o branche, que é referente a versão do código. Copiando o código que o teminal disponibiliza, abre a janela de longin do github. Então clicar para ir para o navegador e autorizar.
 - git push --set-upstream origin master
 
+
 #Ver as versões do código e notar que existe um id:
 - git reflog
 
@@ -71,8 +74,9 @@ Agora o git irá pedir para configurar, caso ainda não tenha feito, use os coma
 --------------------
 OBS: 
 
-# Quando não há modificações nos arquivos e faço commit e push, ele retorna que não há nada para mudar e continua com o nome da versão que estou atualmente. "nothing to commit, working tree clean" e "Everything up-to-date"
+# Quando não há modificações nos arquivos e faço commit e push, ele retorna que não há nada para mudar e continua com o nome da versão que estou atualmente. "nothing to commit, working tree clean" e "Everything up-to-date".
 
+# É possível ter nomes igaus em branchs diferentes.
 
-
+#
 
