@@ -1,4 +1,4 @@
---------------
+--------------------
 1# add a modificação ao versionamento de código
 - git add .
 
@@ -8,7 +8,7 @@
 3# Enviar para a nuvem
 - git push
 
---------------
+--------------------
 
 #Abrir terminal - botão direito "Git Bash Here", abrirá o terminal.
 
@@ -41,8 +41,10 @@ Agora o git irá pedir para configurar, caso ainda não tenha feito, use os coma
 #Navegar entre versõesdo código
 - git reset --hard IdDaVersão
 
+--------------------
+OBS: 
 
-
+# Quando não há modificações nos arquivos e faço commit e push, ele retorna que não há nada para mudar e continua com o nome da versão que estou atualmente. "nothing to commit, working tree clean" e "Everything up-to-date"
 
 
 
