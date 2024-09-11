@@ -1,14 +1,42 @@
 --------------------
-1# add a modificação ao versionamento de código
+##Commit:
+
+1# Adicionar a modificação ao versionamento de código
 - git add .
 
-2# criar uma versão
+2# Criar uma versão
 - git commit -m "msg sobre a versão"
 
 3# Enviar para a nuvem
 - git push
 
 --------------------
+##Navegar entre versões:
+
+#Ver histórico
+- git reflog
+
+#Fazer alteração para outra versão
+- git reset --hard (versão)
+
+--------------------
+##Branch
+
+#Verificar as branch existentes
+- git branch
+
+#Criar uma branch
+- git branch (nome)
+- git branch (staging por ex, em produção)
+
+#Mudar a branch
+- git checkout (nome da branch)
+
+#Commit na nova branch: ao dar commit e push el não vai aceitar até configurar com o comando que ele vai passar, nome da branch no final
+- git push --set-upstream origin staging
+
+--------------------
+Inicio do tutorial passo a passo:
 
 #Abrir terminal - botão direito "Git Bash Here", abrirá o terminal.
 
@@ -35,11 +63,13 @@ Agora o git irá pedir para configurar, caso ainda não tenha feito, use os coma
 #Assim que dou push novamente, retorna um erro pq não foi definido o branche, que é referente a versão do código. Copiando o código que o teminal disponibiliza, abre a janela de longin do github. Então clicar para ir para o navegador e autorizar.
 - git push --set-upstream origin master
 
+
 #Ver as versões do código e notar que existe um id:
 - git reflog
 
 #Navegar entre versõesdo código
 - git reset --hard IdDaVersão
+
 
 --------------------
 OBS: 
