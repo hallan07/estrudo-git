@@ -54,7 +54,14 @@ BOAS PRÁTICAS trab em equipe
 7# Mergiar(unir) o código da branch temporária com a branch principal(depois de testar)  
 8# Git push da branch principal
 --------------------
+Clonar qualquer repositório oumeu master
 
+- git clone https://github.com/nome-do-usuario/nome-do-repositorio.git
+
+ex:
+https://github.com/hallan07/estudo-git.git
+
+--------------------
 Inicio do tutorial passo a passo:
 
 #Abrir terminal - botão direito "Git Bash Here", abrirá o terminal.
