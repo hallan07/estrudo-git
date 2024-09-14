@@ -38,12 +38,14 @@
 #Merge, entro na branch principal, e puxarei a atualização da outra branch (staging) para juntar a essa
 - git merge (nome da branch)
 
-#Puxar o código de uma branch pra miha máquina. Primeiro entro nela e depois dou o pull
+#Puxar o código de uma branch para minha máquina. Primeiro entro nela e depois dou o pull
 - git pull
 
+#Criar uma nova branch com base da Master
+- git checkout -b nome-da-nova-branch master(nome da branch que uso de base para copiar)
 
 --------------------
-BOAS PRÁTICAS trab em equipe
+BOAS PRÁTICAS trabalho em equipe
 
 1# git pull da branch principal  
 2# Gerar uma nova branch a partir da branch principal  
@@ -54,7 +56,7 @@ BOAS PRÁTICAS trab em equipe
 7# Mergiar(unir) o código da branch temporária com a branch principal(depois de testar)  
 8# Git push da branch principal
 --------------------
-Clonar qualquer repositório oumeu master
+Clonar qualquer repositório ou meu master
 
 - git clone https://github.com/nome-do-usuario/nome-do-repositorio.git
 
@@ -66,7 +68,7 @@ Inicio do tutorial passo a passo:
 
 #Abrir terminal - botão direito "Git Bash Here", abrirá o terminal.
 
-#Ininciar o Git no diretório - git init
+#Iniciar o Git no diretório - git init
 
 #ver status, quais estão ou não no controle de versão - git status
 
@@ -77,23 +79,23 @@ Inicio do tutorial passo a passo:
 - git add .
 
 #Criar a primeira versão do código, commit 
-- git commit -m "msg commit inicial (oq foi feito nessa versão)"
+- git commit -m "msg commit inicial (o que foi feito nessa versão)"
 Agora o git irá pedir para configurar, caso ainda não tenha feito, use os comandos que ele pedir inserindo o email e nome de usuário
 
-#Enviar alterações usando git push (vai dar um erro pq o git não sabe onde enviar o push)
+#Enviar alterações usando git push (vai dar um erro porque o git não sabe onde enviar o push)
 - git push
 
 #Criar a pasta no github para enviar os arquivos. Criar um repositório no GitHub e pegar o link e aplicar com o comando:
 - git remote add origin link
 
-#Assim que dou push novamente, retorna um erro pq não foi definido o branche, que é referente a versão do código. Copiando o código que o teminal disponibiliza, abre a janela de longin do github. Então clicar para ir para o navegador e autorizar.
+#Assim que dou push novamente, retorna um erro porque não foi definido o branche, que é referente a versão do código. Copiando o código que o teminal disponibiliza, abre a janela de longin do github. Então clicar para ir para o navegador e autorizar.
 - git push --set-upstream origin master
 
 
 #Ver as versões do código e notar que existe um id:
 - git reflog
 
-#Navegar entre versõesdo código
+#Navegar entre versões do código
 - git reset --hard IdDaVersão
 
 
@@ -102,7 +104,7 @@ OBS:
 
 # Quando não há modificações nos arquivos e faço commit e push, ele retorna que não há nada para mudar e continua com o nome da versão que estou atualmente. "nothing to commit, working tree clean" e "Everything up-to-date".
 
-# É possível ter nomes igaus em branchs diferentes.
+# É possível ter nomes iguais em branchs diferentes.
 
 #
 
